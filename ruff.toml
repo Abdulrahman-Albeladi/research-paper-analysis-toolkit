@@ -1,4 +1,4 @@
-[tool.ruff]
+[ruff]
 # Project-specific Ruff configuration. This repository keeps analysis notebooks
 # under `notebooks/` which are not intended to be linted by Ruff. Exclude that
 # directory so Ruff focuses on code in src/ and tests/.
@@ -11,5 +11,5 @@ exclude = [
   ".venv/**",
   "build/**",
   "dist/**",
-  "node_modules/**"
+  "node_modules/**",
 ]
