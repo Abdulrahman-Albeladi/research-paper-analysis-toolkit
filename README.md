@@ -1,11 +1,5 @@
 # Research Toolkit
 
-<!-- employer-visual:start -->
-<p align="center">
-  <img src="docs/portfolio-overview.png" alt="Research Toolkit project overview" width="100%">
-</p>
-<!-- employer-visual:end -->
-
 
 Reusable Python and notebook workflows for multilingual research-data preparation, statistical analysis, and AI-text detector evaluation.
 
