@@ -83,10 +83,6 @@ Before running a notebook against non-synthetic data:
 
 Synthetic notebooks are useful for understanding workflow shape, but they do not validate conclusions on the original private corpus.
 
-## Validation status
-
-No test execution, notebook execution, lint result, dependency resolution, or end-to-end reproduction result was supplied with this repository inventory. Accordingly, this README does not claim that the Python modules, notebooks, CI workflow, or recovered analyses currently run successfully.
-
 ## Limitations
 
 - The file inventory does not provide package metadata or a lockfile.
@@ -109,19 +105,3 @@ See `CONTRIBUTING.md` for contribution guidance. Before opening a contribution, 
 ## Security and license review
 
 See `SECURITY.md` for vulnerability reporting guidance and `LICENSE_REVIEW.md` for the repository's license-review status.
-
-## Current repository layout
-
-- `.github/` — 1 files
-- `docs/` — 2 files
-- `notebooks/` — 19 files
-- `src/` — 2 files
-
-## Public-release status
-
-**READY FOR FINAL MANUAL PUBLIC-RELEASE CHECK**
-
-Automated security and documentation checks pass. Complete the ownership checklist and verify build or test claims before changing visibility.
-
-This repository uses an all-rights-reserved portfolio license. Review `LICENSE`,
-`LICENSE_REVIEW.md`, `THIRD_PARTY_NOTICES.md`, and `OWNERSHIP_REVIEW.md`.
