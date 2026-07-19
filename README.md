@@ -105,9 +105,6 @@ Privacy and safety
 - If you enable run_detection: you consent to send provided text to a third‑party service. Review their terms before use.
 - requests is only required for the network client (installed via the [detector] extra).
 
-Arabic summary (ملخص بالعربية)
-هذه الحزمة البرمجية تُظهر هندسة بايثون عملية لخطوط عمل البحث: أداة لاستخراج الشيفرة من المستودعات مع قواعد تقييم ذكية، وخط أنابيب لاختبار كواشف النص/الشيفرة بالذكاء الاصطناعي مع إعدادات آمنة بشكل افتراضي. يمكن تشغيله محليًا دون اتصال، مع خيار التكامل مع واجهة برمجية خارجية عند الحاجة.
-
 Portfolio scope
 Only public, employer‑relevant implementation material is included. Private research notebooks, internal workflows, cleaned data, and internal documentation are intentionally excluded.
 
