@@ -1,8 +1,5 @@
 # Research Toolkit
 
-<p align="center">
-  <img src="assets/portfolio-overview.png" alt="Research Toolkit project overview" width="100%">
-</p>
 
 Reusable Python workflows for repository code extraction and AI-text/code detector evaluation. Network calls are disabled by default; an optional extra enables a third‑party API client when needed.
 
