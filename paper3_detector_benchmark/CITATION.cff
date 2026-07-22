@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying article."
+title: "Code for A Multilingual Benchmark of Commercial AI Detection Tools for Arabic, English, and Code Assignments in Saudi Higher Education"
+type: software
+version: 1.0.0
+date-released: 2026-07-22
+authors:
+  - family-names: Albeladi
+    given-names: Abdulrahman M.
+    orcid: "https://orcid.org/0009-0000-8108-2332"
+repository-code: "https://github.com/REPLACE_WITH_USERNAME/REPLACE_WITH_REPOSITORY"
+abstract: "Cleaned and reproducible Python implementation of the benchmark preparation, detector-output processing, performance evaluation, statistical comparison, weighting, and conflict analysis used in the accompanying article."

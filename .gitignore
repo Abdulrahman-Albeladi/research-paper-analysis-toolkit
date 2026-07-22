@@ -1,56 +1,40 @@
-# Python bytecode
+# Python
 __pycache__/
 *.py[cod]
-
-# Virtual environments
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
 .venv/
 venv/
-env/
 
-# Tool caches
-.ruff_cache/
-.pytest_cache/
-.mypy_cache/
-.coverage
-htmlcov/
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Local environment files
+# Secrets
 .env
 .env.*
 !.env.example
+*.pem
+*.key
+credentials*.json
+service-account*.json
 
-# OS/editor artifacts
+# Research data and outputs
+**/data/raw/
+**/data/private/
+**/outputs/
+**/output/
+**/results/
+**/*.xlsx
+**/*.xls
+**/*.csv
+!**/data/*template.csv
+!**/data/example*.csv
+!**/tests/fixtures/*.csv
+
+# Notebooks are intentionally not part of the public repository
+*.ipynb
+.ipynb_checkpoints/
+
+# OS/editor
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
-
-# Build artifacts
-build/
-dist/
-*.egg-info/
-
-.env
-*.pem
-*.key
-credentials.json
-service-account.json
-local.properties
-**/data/raw/**
-**/.ipynb_checkpoints/**
-__pycache__/
-
-# Generated, local, and secret material
-*.p12
-*.pfx
-service-account*.json
-google-services.json
-*.class
-node_modules/
-
-# Examples output (generated at runtime)
-examples/output/*
-!examples/output/.gitkeep

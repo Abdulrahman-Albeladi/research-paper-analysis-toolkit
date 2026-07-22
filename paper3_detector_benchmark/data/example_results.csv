@@ -1,0 +1,10 @@
+Language,Label,file_name,word_count,gptzero_ai_rate_percent,gptzero_result,pangram_ai_rate_percent,pangram_result,sapling_ai_rate_percent,sapling_result,isgen_ai_rate_percent,isgen_result
+Arabic,AI-Free,example_ar_h.txt,100,10,Likely Human,5,Likely Human,70,Likely AI,20,Likely Human
+Arabic,AI-Generated,example_ar_a.txt,100,95,Likely AI,99,Likely AI,80,Likely AI,75,Likely AI
+Arabic,Humanized AI,example_ar_u.txt,100,25,Likely Human,70,Likely AI,65,Likely AI,60,Likely AI
+English,AI-Free,example_en_h.txt,100,5,Likely Human,2,Likely Human,15,Likely Human,10,Likely Human
+English,AI-Generated,example_en_a.txt,100,95,Likely AI,99,Likely AI,90,Likely AI,85,Likely AI
+English,Humanized AI,example_en_u.txt,100,75,Likely AI,80,Likely AI,60,Likely AI,20,Likely Human
+Coding,AI-Free,example_co_h.txt,100,,,0,Likely Human,,,,
+Coding,AI-Generated,example_co_a.txt,100,,,80,Likely AI,,,,
+Coding,Humanized AI,example_co_u.txt,100,,,40,Likely Human,,,,

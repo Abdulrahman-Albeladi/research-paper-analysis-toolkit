@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paper1-survey-analysis"
+version = "1.0.0"
+description = "Reproducible analysis code for the Saudi undergraduate AI-use survey."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.0",
+  "scipy>=1.11",
+  "statsmodels>=0.14",
+  "factor-analyzer>=0.5",
+  "openpyxl>=3.1",
+  "xlsxwriter>=3.1"
+]
+
+[project.optional-dependencies]
+qualitative = ["openai>=1.0"]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-ra"

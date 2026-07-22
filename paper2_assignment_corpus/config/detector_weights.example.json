@@ -1,0 +1,5 @@
+{
+  "Arabic": {"gptzero": 0.24, "pangram": 0.33, "sapling": 0.16, "isgen": 0.27},
+  "English": {"gptzero": 0.27, "pangram": 0.28, "sapling": 0.24, "isgen": 0.21},
+  "Code": {"pangram": 1.0}
+}

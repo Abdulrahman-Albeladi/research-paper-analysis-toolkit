@@ -1,0 +1,10 @@
+file_id,language,label,file_name,file_path,source_url,source_date,redistribution_status
+AR_H_001,Arabic,AI-Free,arabic_human_001.txt,arabic/ai_free/arabic_human_001.txt,,,verify_before_release
+AR_A_001,Arabic,AI-Generated,arabic_ai_001.txt,arabic/ai_generated/arabic_ai_001.txt,,,shareable
+AR_U_001,Arabic,Humanized AI,arabic_humanized_001.txt,arabic/humanized_ai/arabic_humanized_001.txt,,,shareable
+EN_H_001,English,AI-Free,english_human_001.txt,english/ai_free/english_human_001.txt,,,verify_before_release
+EN_A_001,English,AI-Generated,english_ai_001.txt,english/ai_generated/english_ai_001.txt,,,shareable
+EN_U_001,English,Humanized AI,english_humanized_001.txt,english/humanized_ai/english_humanized_001.txt,,,shareable
+CO_H_001,Coding,AI-Free,code_human_001.txt,coding/ai_free/code_human_001.txt,,,verify_license
+CO_A_001,Coding,AI-Generated,code_ai_001.txt,coding/ai_generated/code_ai_001.txt,,,shareable
+CO_U_001,Coding,Humanized AI,code_humanized_001.txt,coding/humanized_ai/code_humanized_001.txt,,,shareable

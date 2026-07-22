@@ -1,0 +1,9 @@
+{
+  "minimum_words": 300,
+  "maximum_detector_characters": 50000,
+  "high_impact_low_threshold": 30,
+  "high_impact_high_threshold": 70,
+  "high_impact_combined_low": 40,
+  "high_impact_combined_high": 60,
+  "broad_rate_range_threshold": 40
+}

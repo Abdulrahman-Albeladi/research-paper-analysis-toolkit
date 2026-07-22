@@ -1,0 +1,2 @@
+file_id,file_name,file_path,language,university,major,year_grouping,assignment_type,source_format
+P2-0001,example.txt,relative/path/example.txt,English,Example University,SWE,First Year,Computer Project Report,txt

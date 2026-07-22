@@ -1,0 +1,32 @@
+# Credentials
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+
+# Local data and generated outputs
+data/raw/
+data/private/
+data/benchmark_files/
+data/benchmark_results.csv
+outputs/
+logs/
+checkpoints/
+*.parquet
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

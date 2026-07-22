@@ -1,0 +1,21 @@
+{
+  "benchmark_root": "data/benchmark_files",
+  "folder_map": {
+    "Arabic": {
+      "AI-Free": "arabic/ai_free",
+      "AI-Generated": "arabic/ai_generated",
+      "Humanized AI": "arabic/humanized_ai"
+    },
+    "English": {
+      "AI-Free": "english/ai_free",
+      "AI-Generated": "english/ai_generated",
+      "Humanized AI": "english/humanized_ai"
+    },
+    "Coding": {
+      "AI-Free": "coding/ai_free",
+      "AI-Generated": "coding/ai_generated",
+      "Humanized AI": "coding/humanized_ai"
+    }
+  },
+  "extensions": [".txt"]
+}
